@@ -1,0 +1,83 @@
+/*------------- Media Queries ----------*/
+
+/*Desktop*/
+@media screen and (max-width: 1024px){
+    .container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 2fr 3fr;
+        grid-template-rows: repeat(4, 2fr);
+    }
+    .color{
+        box-shadow: 11px 10px 15px -10px rgb(255, 145, 1);
+    }
+    main{
+        grid-row: 3 / 3;
+        grid-column: 2 / 2;
+    }
+    .Home-img{
+        position: absolute;
+        top: 6cm;
+        right: 2cm; 
+        z-index: -1;
+    }
+    .Himg{
+        height: 6cm;
+        grid-row: 3/3;
+       
+    }
+    footer{
+        color: white;
+        grid-column: 1 / 5;
+        grid-row: 6 / 6;
+        text-align: center;
+        margin-top: 1cm;
+    }
+
+/*about Contents*/
+    .aboutme-header h1{
+        padding-top: 12%;
+        text-transform: capitalize;
+        color: whitesmoke;
+        font-size: 70px;
+        text-shadow: 0px 3px 6px rgba(0,0,0,0.71);
+    }
+    .aboutme-header{
+        top: 30px;
+        height: 350px;
+    }
+    .aboutme-content{
+        top: 330px;
+        margin-bottom: 3cm;
+        height: auto;
+    }
+    .aboutme-cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 2fr, 2fr, ;
+        gap: .3rem;
+        margin-top: .3rem;  
+        
+    }
+
+    .aboutme-workphilosophy h5{
+        grid-column: 2/2;
+        
+    }
+    .cards.projects{
+        grid-column: 3 /3 ;
+        margin-top: 30px;
+    }
+    .cards.profile{
+        grid-column: 1/1;
+        margin-top: 30px;
+   
+     }
+     .cards{
+        grid-template-columns: 250px ;
+        grid-template-rows: 150px 200px;
+        grid-template-areas: "image" "text";
+    }
+    
+
+}
