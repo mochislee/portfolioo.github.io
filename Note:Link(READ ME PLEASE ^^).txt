@@ -1,4 +1,6 @@
-Link: mochislee.github.io
+github repository link: https://github.com/mochislee/mochislee.github.io.git
+
+Project Link: mochislee.github.io
 
 Password CV: CV@Caballero
 
